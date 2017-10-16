@@ -308,7 +308,9 @@ section#services:focus {
     padding-bottom: 3px;
     margin-left: 80px;
 }
-
+section#portfolio:focus {
+    outline: none
+}
 .portfolio .one-1{
     font-size: 1.5rem;
     color: #808080;
@@ -332,6 +334,9 @@ section#services:focus {
     margin: 0 auto;
     text-align: center;
     padding: 100px 0;
+}
+#contact:focus {
+    outline: none
 }
 .footer_end h2{
     font-weight: 700;
