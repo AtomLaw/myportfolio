@@ -279,6 +279,9 @@ nav ul li a:hover{
 .portfolio .row{
     margin-top: 5%;
 }
+section#services:focus {
+    outline: none
+}
 
 .services i{
     font-size: 5rem;
