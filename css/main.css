@@ -456,6 +456,7 @@ footer p{
     border-radius: 50%;
     background: #737373;
     color: #a6a6a6;
+    margin-right: 10px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
