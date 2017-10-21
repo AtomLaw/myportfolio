@@ -217,6 +217,7 @@ nav ul li a:hover{
     text-align: center;
     letter-spacing: 2px;
     color: #404040;
+    font-weight: 900;
 }
 
 .header-top h1:after{
