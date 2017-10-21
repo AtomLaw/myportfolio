@@ -10,12 +10,12 @@ body{
     color: #808080;
     text-align: center;
     margin: 0 auto;
+    position: relative;
 }
 
 p{
     font-family: 'Raleway', sans-serif;
     font-size: 1.4rem;
-    text-align: justify;
     color: #666666;
     display: block;
     line-height: 1.9rem;
@@ -34,16 +34,16 @@ img{
 
 header{
     width: 100%;
-    height: 80px;
+    padding: 5px 0;
     top: 0;
-    background: #000;
+    background:#000;
     position: fixed;
     z-index: 1000;
+
 }
-  
 .logo{
     float: left;
-    line-height: 80px;
+    margin-top: -10px;
 }
 .logo h1{
     display: inline-block;
@@ -74,9 +74,10 @@ header{
     font-size: 8px;
 }
 /*--- Navigation ---*/
+
 nav{
     float: right;
-    line-height: 80px;
+    margin-top: 22px;
 }
 ul{
     list-style: none;
@@ -104,7 +105,6 @@ nav ul li a:focus, nav ul li a:visited {
     text-decoration: none;
     color: #cccccc;
 } 
-
 .active{
     color: #e6e6e6;
     border: 3px solid #FDCD3B;
@@ -123,12 +123,16 @@ nav ul li a:hover{
     color: #999999;
     text-decoration: none;
 }
+
+
+
 #menu-icon{
     display: hidden;
     width: 35px;
     height: 35px;
     background: url(../img/icon/nav-dark.png) center;
 }
+
 /*--banner image--*/
 .banner-image{
     background: url('../img/b1.jpg');
@@ -207,7 +211,7 @@ nav ul li a:hover{
     text-align: center;
 }
 .header-top h1{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -282,17 +286,19 @@ nav ul li a:hover{
 section#services:focus {
     outline: none
 }
-
 .services i{
-    font-size: 5rem;
-    color: #000;
+    font-size: 4rem;
+    color: #FDCD3B;
     margin-bottom: 4%;
+    background: #000;
+    padding: 30px 30px;
+    border-radius: 50%;
 }
 .services h3{
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 800;
     font-family: 'Playfair Display', sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 2rem;
     color: #333333;
 }
 /*---Portfolio---*/
@@ -311,6 +317,7 @@ section#services:focus {
 section#portfolio:focus {
     outline: none
 }
+
 .portfolio .one-1{
     font-size: 1.5rem;
     color: #808080;
@@ -450,13 +457,13 @@ footer p{
 }
 
 .last{
+    margin-right: 30px;
     float: right;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border: 1px solid grey;
     border-radius: 50%;
     background: #737373;
     color: #a6a6a6;
-    margin-right: 20px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -ms-transition: all .5s ease;
@@ -547,6 +554,31 @@ footer p{
     }
     
 }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 
