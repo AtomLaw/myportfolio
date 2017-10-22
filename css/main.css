@@ -38,7 +38,7 @@ header{
     top: 0;
     background:#000;
     position: fixed;
-    opacity: 0.8;
+    z-index: 1000;
 
 }
 .logo{
